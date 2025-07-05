@@ -1,6 +1,10 @@
-/target/
-Cargo.lock
+# Node.js
 node_modules/
 package-lock.json
-turbin3-wallet
+
+# TypeScript
+*.tsbuildinfo
+
+# Wallet files (keep these private!)
+turbin3-wallet.json
 *.json
