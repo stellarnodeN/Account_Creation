@@ -4,12 +4,12 @@ A TypeScript repo to create new accounts on Solana using the gill library.
 
 ## What it does
 
-This script demonstrates how to create a new Solana account using the System Program's `createAccount` instruction. It:
+This script demonstrates how to create a new Solana account using the gill library. It:
 
 - Connects to Solana devnet using gill
 - Uses an existing wallet as the payer
 - Creates a new account with rent-exempt minimum balance
-- Returns the transaction signature and new account public key
+- Returns the transaction signature
 
 ## Usage
 
